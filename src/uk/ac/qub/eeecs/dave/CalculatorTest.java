@@ -17,4 +17,16 @@ class CalculatorTest {
 		Calculator c = new Calculator();
 		assertEquals(c.sub(10,1), 9);
 	}
+	
+	@Test
+	void testMultiply() {
+		Calculator c = new Calculator();
+		assertEquals(c.multiply(3, 10), 30);
+	}
+	
+	@Test 
+	void testDivide() {
+		Calculator c = new Calculator();
+		assertEquals(c.divide(10, 2), 5);
+	}
 }
